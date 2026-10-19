@@ -1,0 +1,51 @@
+{
+  "validation": {
+    "observations": 237,
+    "first_month": "2007-01",
+    "last_month": "2026-09",
+    "duplicate_months": 0,
+    "zero_quantity_months": 0,
+    "missing_months": [],
+    "source_yoy_max_abs_error_pct_point": {
+      "export": 0.049774,
+      "units": 0.049117
+    },
+    "unit_value_identity_max_abs_usd": 4.99e-10
+  },
+  "summary": {
+    "current": {
+      "ym": "2026-09",
+      "export_usd": 16777015530,
+      "export_units": 683484627,
+      "export_weight_g": 233545571,
+      "usd_per_unit": 24.546295362,
+      "export_yoy_pct": 532.1,
+      "units_yoy_pct": 1.5,
+      "avg_value_yoy_pct": 522.548922,
+      "import_usd": 1312174605,
+      "import_units": 212315773,
+      "import_weight_g": 48504355
+    },
+    "previous": {
+      "ym": "2025-09",
+      "export_usd": 2654060655,
+      "export_units": 673129112,
+      "export_weight_g": 159929703,
+      "usd_per_unit": 3.942870109,
+      "export_yoy_pct": 40.6,
+      "units_yoy_pct": 14.2,
+      "avg_value_yoy_pct": 23.084828,
+      "import_usd": 798152461,
+      "import_units": 147844760,
+      "import_weight_g": 60977462
+    },
+    "shapley": {
+      "delta_usd": 14122954875,
+      "price_effect_usd": 13975444884.34,
+      "quantity_effect_usd": 147509990.186,
+      "price_share_pct": 98.95553,
+      "quantity_share_pct": 1.04447,
+      "reconciliation_error_usd": -0.474115
+    }
+  }
+}
